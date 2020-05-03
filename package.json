@@ -1,0 +1,53 @@
+{
+  "name": "vue-use",
+  "version": "1.0.0",
+  "description": "Vue Hooks",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loveyunk/vue-use.git"
+  },
+  "keywords": [],
+  "author": "loveyunk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loveyunk/vue-use/issues"
+  },
+  "homepage": "https://github.com/loveyunk/vue-use#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/vue": "^5.3.18",
+    "@types/jest": "^25.2.1",
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "@vue/babel-preset-jsx": "^1.1.2",
+    "@vue/composition-api": "^0.5.0",
+    "@vue/test-utils": "^1.0.0-beta.33",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "github-markdown-css": "^4.0.0",
+    "jest": "^25.5.4",
+    "markdown-loader": "^5.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "vue-tsx-support": "^2.3.3"
+  }
+}
