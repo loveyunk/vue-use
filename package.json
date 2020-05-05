@@ -1,21 +1,35 @@
 {
-  "name": "vue-use",
+  "name": "@loveyunk/vue-use",
   "version": "1.0.0",
   "description": "Vue Hooks",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
+    "start": "yarn storybook",
+    "test": "jest --maxWorkers 2",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "build:cjs": "tsc",
+    "build:es": "tsc -m esNext --outDir esm",
+    "build": "yarn build:cjs && yarn build:es",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "storybook:build": "build-storybook",
+    "storybook:clean": "rimraf storybook-static"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/loveyunk/vue-use.git"
   },
-  "keywords": [],
-  "author": "loveyunk",
-  "license": "ISC",
+  "keywords": [
+    "vue",
+    "vue-use",
+    "vue-hooks",
+    "vue-composition-api"
+  ],
+  "author": "loveyunk <mjjccc@126.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/loveyunk/vue-use/issues"
   },
